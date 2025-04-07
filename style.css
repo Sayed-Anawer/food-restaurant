@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   height: 919px;
+   height: 100vh;
    background-image: linear-gradient(0deg, rgb(9, 9, 9) 3.482%,rgba(16, 16, 16, 0) 101.632%),url("./assets/hero-bg.png");
    background-repeat: no-repeat;
    background-size: cover;
@@ -67,4 +67,118 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 23px;
+}
+
+.full-container{
+    width: 1125px;
+    margin: 50px auto;
+}
+.container{
+    margin: 80px 0;
+}
+
+.title p{
+ color: rgb(16, 16, 16);
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+
+}
+
+.title h1{
+    color: rgb(16, 16, 16);
+
+font-size: 42px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+margin: 18px 0px;
+}
+
+/* Card container */
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.card-container .card{
+    width: 300px;
+}
+.card-container .img-box{
+    width: 300px;
+}
+.card-container img{
+    width: 100%;
+}
+.card-container .name{
+    font-size: 16px;
+    font-weight: 600;
+    width: 100px;
+    border-radius: 8px;
+    margin: 18px auto;
+    text-align: center;
+    padding: 14px 24px 14px 24px;
+background: rgba(82, 195, 3, 0.15);
+}
+.card-container .offer{
+color: rgb(16, 16, 16);
+margin:18px 0;
+font-size: 28px;
+font-weight: 600;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.card-container .description{
+color: rgb(16, 16, 16);
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+
+
+.buy-button button{
+    margin: 40px 0;
+    width: 300px;
+
+    padding: 12px 0 ;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    background: rgb(211, 126, 16);
+    cursor: pointer;
+}
+
+.btn-container {
+text-align: center;
+padding: 21px 32px 21px 32px;
+}
+.btn-container button{
+    padding: 21px 32px 21px 32px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    background: rgb(82, 195, 3);
+    cursor: pointer;
 }
